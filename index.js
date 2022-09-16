@@ -1,9 +1,7 @@
-const readline = require('readline').createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+const prompt = require('prompt-sync')();
 
-readline.question('Informe o seu peso: ', peso => {
-  readline.close();
-  console.log(`O peso informado foi de ${peso} quilos.`);
-});
+const peso = prompt('Qual o seu peso? ');
+console.log(`O peso informado foi de ${peso} quilos`);
+
+const altura = prompt('Qual a sua altura (em centímetros)? ');
+console.log(`A altura informada foi de ${altura} centímetros`);
