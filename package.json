@@ -1,0 +1,11 @@
+{
+  "name": "imc_proj_unigran",
+  "version": "1.0.0",
+  "description": "Projeto para calculo de IMC para Unigran",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zak Zangrando",
+  "license": "ISC"
+}
